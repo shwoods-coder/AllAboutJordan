@@ -1,0 +1,154 @@
+html,
+body {
+    margin: 1px,1%;
+    padding: 0%;
+    
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body { 
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-family:Arial, Helvetica, sans-serif;
+    flex: 1 1 100%;
+}
+nav.container {
+    background-color: #E63946;
+    color: #F1FAEE;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    font: 1.5em sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+nav a {
+    color: #F1FAEE;
+    text-align: match-parent;
+    text-decoration: none;
+}
+.title-container {
+    background-color: #E63946;
+    padding: 3%;
+    text-align: center;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.7%;
+    flex-wrap: wrap;
+  
+}
+.just-title, 
+.jordan-title { 
+    color: #F1FAEE;
+
+}
+.just-title,
+.lenhart-title { 
+    text-align: start;
+
+}
+.jordan-title {
+   
+    color: #F1FAEE;
+    font-size: 400%;
+    text-align: right;
+    
+}
+
+.lenhart-title {
+    color: #1D3557;
+    font-size: 400%;
+
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+    gap: 50px 50px;
+   
+    
+}
+.text-header{
+    color: #E63946;
+    text-align: center;
+    font-size: 250%;
+}
+.test-box {
+    background-color: #457B9D;
+    border: 5px solid #457B9D;
+    border-radius: 50px;
+    padding: 20px;
+    max-width: 500px;
+    height: auto;
+    text-wrap: balance;
+    line-height: 1.5;
+   
+   
+}
+
+.img-box {
+    border: 5px solid #E63946;
+    border-radius: 50px;
+    padding: 20px;
+    max-width: 500px;
+    height: 350px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+
+.contact-container {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.contact-title {
+    color: #E63946;
+    font-size: 200%;
+}
+.contact-pic{
+    background-color: #457B9D;
+    border: 1px solid  #457B9D;
+    border-radius: 80px;
+    padding: 20px;
+    max-width: 100px;
+    height: 100px;
+    color: black;
+
+}
+
+.contact-button {
+    background-color: #E63946;
+    border: none; 
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #E63946;
+    color: #F1FAEE;
+    display: flex;
+    justify-content: center;
+    
+}
